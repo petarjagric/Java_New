@@ -11,7 +11,7 @@ public class Z_03 {
 		b = Integer.parseInt(JOptionPane.showInputDialog("Input a second whole number"));
 		c = Integer.parseInt(JOptionPane.showInputDialog("Input a thrid whole number"));
 		
-		if (a<b) {
+		if (a>b) {
 			System.out.println(a);
 		}else if (b>c) {
 			System.out.println(b);

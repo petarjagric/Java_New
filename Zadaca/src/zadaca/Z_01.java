@@ -12,7 +12,7 @@ public class Z_01 {
 		
 		int a;
 		
-		a = Integer.parseInt(JOptionPane.showInputDialog("Unesi cijeli braoj"));
+		a = Integer.parseInt(JOptionPane.showInputDialog("Input a whole number"));
 		
 		if (a%2==0) {
 			System.out.println("Osijek");
@@ -39,7 +39,7 @@ public class Z_01 {
 		if (a%2==0) {
 			int b;
 			b = Integer.parseInt(JOptionPane.showInputDialog("Input a second whole number"));	
-			System.out.println(a-b);
+			System.out.println(a+b);
 		}else {
 			float c;
 			c = Float.parseFloat(JOptionPane.showInputDialog("Input a decimal number"));
