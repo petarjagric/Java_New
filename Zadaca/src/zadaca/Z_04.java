@@ -53,7 +53,7 @@ public class Z_04 {
 			if (Division == operationDivision) {
 				System.out.println(Division);
 			}else {
-				System.out.println(Division);
+				System.out.println(operationDivision);
 			}
 		}
 
