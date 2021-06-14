@@ -39,7 +39,7 @@ public class Z_01 {
 		if (a%2==0) {
 			int b;
 			b = Integer.parseInt(JOptionPane.showInputDialog("Input a second whole number"));	
-			System.out.println(a+b);
+			System.out.println(a-b);
 		}else {
 			float c;
 			c = Float.parseFloat(JOptionPane.showInputDialog("Input a decimal number"));

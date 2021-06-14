@@ -10,7 +10,7 @@ public class Z_02 {
 		a = Integer.parseInt(JOptionPane.showInputDialog("Input the first whole number"));
 		b = Integer.parseInt(JOptionPane.showInputDialog("Input a second whole number"));
 		
-		if (a>b) {
+		if (a<b) {
 			System.out.println(a);
 		}else {
 			System.out.println(b);
