@@ -7,9 +7,9 @@ public class Z_03 {
 		
 		int a,b,c;
 		
-		a = Integer.parseInt(JOptionPane.showInputDialog("Unesi prvi cijeli broj"));
-		b = Integer.parseInt(JOptionPane.showInputDialog("Unesi drugi cijeli broj"));
-		c = Integer.parseInt(JOptionPane.showInputDialog("Unesi treci cijeli broj"));
+		a = Integer.parseInt(JOptionPane.showInputDialog("Input the frist whole number"));
+		b = Integer.parseInt(JOptionPane.showInputDialog("Input a second whole number"));
+		c = Integer.parseInt(JOptionPane.showInputDialog("Input a thrid whole number"));
 		
 		if (a>b) {
 			System.out.println(a);

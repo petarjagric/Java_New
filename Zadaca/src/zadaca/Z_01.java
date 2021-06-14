@@ -34,15 +34,15 @@ public class Z_01 {
 		
 		int a;
 		
-		a = Integer.parseInt(JOptionPane.showInputDialog("Unesi cijeli broj"));
+		a = Integer.parseInt(JOptionPane.showInputDialog("Input a whole number"));
 		
 		if (a%2==0) {
 			int b;
-			b = Integer.parseInt(JOptionPane.showInputDialog("Unesi drugi cijeli broj"));	
+			b = Integer.parseInt(JOptionPane.showInputDialog("Input a second whole number"));	
 			System.out.println(a+b);
 		}else {
 			float c;
-			c = Float.parseFloat(JOptionPane.showInputDialog("Unos decimalong broja"));
+			c = Float.parseFloat(JOptionPane.showInputDialog("Input a decimal number"));
 			System.out.println((a+c)%2==0);
 		}
 	}

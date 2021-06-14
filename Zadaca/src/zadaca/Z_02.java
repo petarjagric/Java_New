@@ -7,8 +7,8 @@ public class Z_02 {
 		
 		int a,b;
 		
-		a = Integer.parseInt(JOptionPane.showInputDialog("Unesi prvi cijeli broj"));
-		b = Integer.parseInt(JOptionPane.showInputDialog("Unesi drugi cijeli broj"));
+		a = Integer.parseInt(JOptionPane.showInputDialog("Input the first whole number"));
+		b = Integer.parseInt(JOptionPane.showInputDialog("Input a second whole number"));
 		
 		if (a>b) {
 			System.out.println(a);
